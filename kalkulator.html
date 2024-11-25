@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">	
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	
+	
 	<link rel="stylesheet" href="main.css">
 	
 	<!--[if lt IE 9]>
@@ -22,9 +23,31 @@
 	
 	<main>
 	<article>
+		<div id="container">
+		<center><h2>Kalkulator BMI</h2></center>
+
+
+		<label for="wzrost">Wzrost (cm):</label>
+		<br>
+		<input type="number" id="wzrost" name="wzrost">
+		<br>
+		<label for="waga">Waga (kg):</label>
+		<br>
+		<input type="number" id="waga" name="waga">
+		<br><br>
 		
 
+		<button onclick="kalkulatorBMI()">Oblicz</button>
+        </select>
+
+
+		<div id="wynik">
+			Twoje BMI wynosi:
+		</div>
+	</div>
+
 		
+
 	</article>	
 	</main>
 	
